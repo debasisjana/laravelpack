@@ -1,1 +1,0 @@
-@lang('LaravelVendorPackage::messages.welcome')
