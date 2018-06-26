@@ -1,0 +1,24 @@
+{
+    "name": "djpack/djadmin",
+    "description": "demo-admin-panel",
+    "authors": [
+        {
+            "name": "debasis jana",
+            "email": "debasisjana7@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+           "Djpack\\Djadmin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Djpack\\Djadmin\\DjadminServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
